@@ -1,0 +1,31 @@
+/* Centering elements reference: https://www.w3.org/Style/Examples/007/center.en.html */
+
+
+
+
+.grid-container{
+  display: grid;
+  width: 960px;
+  height: 700px;
+  text-align: center;
+  grid-template-areas: "a a a a a"
+                       "b c c d d"
+                       "b e f g h"
+                       "b i i i i"
+}
+
+.box{
+  text-align: center;
+  justify-content: center;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 960px){
+  .grid-container{
+    
+    width: 960px;
+    height: 700px;
+   
+  }
+}
+

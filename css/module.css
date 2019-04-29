@@ -1,0 +1,130 @@
+
+@media screen and (max-width: 767px){
+  #a{
+    /* height: 75px;
+    width: 100%; */
+    background-color: lightblue;
+  } 
+  
+  #b{
+    /* height: 150px; */
+    width: 200px;
+    background-color: lavender;
+  }
+  
+  #c{
+    /* height: 125px;
+    width: 100%; */
+    background-color: lightcoral;
+    order: 1;
+  }
+  
+  #d{
+    /* height: 125px;
+    width: 100%; */
+    background-color: lightcyan;
+  }
+  
+  #four-container{
+    width: 480px;
+  }
+  
+  
+  .four-container{
+    width: 79%;
+    
+  }  
+
+  #e{
+    background-color: lightgreen;
+    /* height: 248px;
+    width: 238px; */
+  }  
+
+  #f{
+    background-color: red;
+    /* height: 248px;
+    width: 238px; */
+  }  
+
+  #g{
+    background-color: black;
+    /* height: 248px;
+    width: 238px; */
+  }  
+
+  #h{
+    background-color: navy;
+    /* height: 248px;
+    width: 238px; */
+  }  
+  
+  #i{
+    /* height: 80px;
+    width: 480px;  */
+    background-color: lightpink;
+  } 
+}
+
+@media screen and (min-width: 768px){
+  body {
+    
+    width: 960px;
+  }
+
+  #a{
+    grid-area: a;
+    background-color: lightpink;
+  } 
+  
+  #b{
+   
+    grid-area: b;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  #c{
+   
+    grid-area: c;
+    background-color: lightsalmon
+  }
+  
+  #d{
+   
+    grid-area: d;
+    background-color: lightslategray;
+  }
+  
+  
+  #e{
+    background-color: aquamarine;
+    grid-area: e;
+   
+  }  
+
+  #f{
+    background-color: purple;
+    grid-area: f;
+   
+  }  
+
+  #g{
+    background-color: saddlebrown;
+    grid-area: g;
+   
+  }  
+
+  #h{
+    background-color: peru;
+    grid-area: h;
+   
+  }  
+  
+  #i{
+   
+    grid-area: i;
+    background-color: lightseagreen;
+  }
+   
+}
+
