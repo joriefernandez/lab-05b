@@ -1,67 +1,50 @@
 
 @media screen and (max-width: 767px){
   #a{
-    /* height: 75px;
-    width: 100%; */
+    grid-area: a;
     background-color: lightblue;
   } 
   
   #b{
-    /* height: 150px; */
-    width: 200px;
+   
+    grid-area: b;
     background-color: lavender;
   }
   
   #c{
-    /* height: 125px;
-    width: 100%; */
+    grid-area: c;
     background-color: lightcoral;
-    order: 1;
+    
   }
   
   #d{
-    /* height: 125px;
-    width: 100%; */
+    grid-area: d;
     background-color: lightcyan;
   }
   
-  #four-container{
-    width: 480px;
-  }
-  
-  
-  .four-container{
-    width: 79%;
-    
-  }  
 
   #e{
     background-color: lightgreen;
-    /* height: 248px;
-    width: 238px; */
+    grid-area: e;
   }  
 
   #f{
     background-color: red;
-    /* height: 248px;
-    width: 238px; */
+    grid-area: f;
   }  
 
   #g{
     background-color: black;
-    /* height: 248px;
-    width: 238px; */
+    grid-area: g;
   }  
 
   #h{
     background-color: navy;
-    /* height: 248px;
-    width: 238px; */
+    grid-area: h;
   }  
   
   #i{
-    /* height: 80px;
-    width: 480px;  */
+    grid-area: i;
     background-color: lightpink;
   } 
 }
